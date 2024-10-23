@@ -11,6 +11,8 @@ Safeness is guaranteed through an "hate speech detection" module, encoder (super
 Fairness is guaranteed through a "bias detection" module and a "debiasing" module, decoder based solutions were performed: introducing of Debiasing Score metric to measure quality and quantity of bias deleted.
 Trustworthiness is guaranteed through a "textual-entailment task" with KBTs (Knowledge base trusted), this is the most crucial task of the entire pipeline.
 
+Pinecone is used to store informations on Vector Data Stores. It is needed to enter the website of Pinecone to configure KBTs and VDS.
+
 For more informations on the application structure and how properties are assured, see on thesis chapter 3. Experimental results are on Excel tables and explained in chapter 4.
 
 ## About the repository structure:
