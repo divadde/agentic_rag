@@ -15,5 +15,8 @@ For more informations on the application structure and how properties are assure
 
 ## About the repository structure:
 
-(TODO)
+- agentic-rag-trust contains the core of application in form of notebook.
+- build-vector-datastore contains the code to build the knowledge base trusted and the vectordatastore content
+- in "modules" folder there are the files focused on bias detection, hate speech detection and entailment. each file contains, eventually, finetuning of encoders, prompts and few-shot examples for language models and a phase of testing
+- in "previous" folder there are some old versions of the application.
 
